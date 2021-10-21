@@ -3,6 +3,7 @@ sudo su -
 mkdir /web
 cd /web
 yum install -y wget
+yum install -y expat-devel gcc gcc-c++
 wget https://downloads.apache.org/apr/apr-1.7.0.tar.gz
 wget https://downloads.apache.org/apr/apr-util-1.6.1.tar.gz
 wget https://downloads.apache.org/httpd/httpd-2.4.51.tar.gz
